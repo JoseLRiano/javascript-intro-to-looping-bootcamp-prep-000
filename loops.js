@@ -1,11 +1,12 @@
-function forloop(array){
-for(let n=0;n<25;n++){
+function forloop(arr){
+  var n;
+for( n=0;n<25;n++){
   if(n==0){
-    array.push("I am 1 strange loop.");
+    arr.push("I am 1 strange loop.");
     else{
-        array.push(`I am ${n} strange loop${n === 1 ? '' : 's'}.`);
+        arr.push(`I am ${n} strange loop${n === 1 ? '' : 's'}.`);
     }
   }
 }
-return array;
+return arr;
 }
