@@ -1,3 +1,4 @@
+function forloop(arr){
 var arr[25];
 for(var i=1;1<=arr.lenght;i++){
   if(i===1){
@@ -5,4 +6,5 @@ for(var i=1;1<=arr.lenght;i++){
   }else {
     arr[i]="I am ${i} strange loops.";
   }
+}
 }
