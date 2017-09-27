@@ -1,11 +1,11 @@
-function forloop(arr){
+function forloop(array){
 
 for(let i=1;i<=25;i++){
   if(i==1){
-    arr[i]="I am 1 strange loop.";
+    array[i]="I am 1 strange loop.";
   }else {
-    arr[i]="I am ${i} strange loops.";
+    array[i]="I am ${i} strange loops.";
   }
 }
-return arr;
+return array;
 }
