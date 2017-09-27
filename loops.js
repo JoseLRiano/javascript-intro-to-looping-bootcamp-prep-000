@@ -1,10 +1,9 @@
 function forloop(array){
-
-for(let i=1;i<=25;i++){
-  if(i==1){
-    array[i]="I am 1 strange loop.";
+for(let n=0;n<25;n++){
+  if(n==0){
+    array[n]="I am ${n} strange loop.";
   }else {
-    array[i]="I am ${i} strange loops.";
+    array[n]="I am ${n} strange loops.";
   }
 }
 return array;
