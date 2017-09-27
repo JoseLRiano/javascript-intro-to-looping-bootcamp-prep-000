@@ -7,4 +7,5 @@ for(let i=1;1<=25;i++){
     arr[i]="I am ${i} strange loops.";
   }
 }
+return arr;
 }
