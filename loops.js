@@ -1,6 +1,6 @@
 function forLoop(array){
   for(let n=0;n<25;n++){
-    array.push('I am ${i} strange loop ${i===0 ? \'\' : \'s\' }.')
+    array.push('I am ${i} strange loop ${i===0 ? \'\' : \'s\' }.');
   }
   return array;
 }
@@ -19,3 +19,4 @@ function doWhileLoop(array){
     array.pop();
     return array;
   }while(arra.length > 0 && maybeTrue());
+}
